@@ -8,7 +8,9 @@ RubberDucky Scripts
 ## Unfreiwilliges BackUP, aka Ungesperrte WindowsPC-Prank
 
 https://www.hak5.org/episodes/hak5-2112-stealing-files-with-the-usb-rubber-ducky
+
 https://www.youtube.com/watch?v=qzRTpG8TVK4
+
 https://www.hak5.org/blog/main-blog/stealing-files-with-the-usb-rubber-ducky-usb-exfiltration-explained
 
 - RubberDucky als HID und Massstorage
